@@ -1,0 +1,41 @@
+*
+{   box-sizing: border-box;
+}
+
+:root
+{   
+}
+
+body
+{   background: url("../images/pasta meal.jpg");
+}
+
+h1
+{   color: yellow;
+}
+
+/*                                      */
+/* style specific to sticky footer      */
+/*                                      */
+
+body, html
+{   height: 100%;
+}
+
+.wrapper
+{   background: rgba(0, 255, 255, 0.5);
+    height: auto;
+    margin-bottom: -30px;
+    min-height: 100%;
+}
+
+.push
+{   background: yellow;
+height: 31px;
+}
+
+footer
+{   background: red;
+    font-size: 10px;
+    padding: 10px;
+}
